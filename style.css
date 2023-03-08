@@ -3,6 +3,7 @@ body {
     height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
     background: url('bg.webp');
     background-repeat: no-repeat;
     background-position: center;
@@ -17,4 +18,20 @@ body::before {
     position: fixed;
     inset: 0;
     background: rgba(255, 255, 255, 0.3);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    height: 270px;
+    background: linear-gradient(-25deg, black, #444, black);
+    border-radius: 15px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    text-shadow: 0 2px 0 black;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 10px 50px -10px black;
 }
