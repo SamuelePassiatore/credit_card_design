@@ -34,4 +34,10 @@ body::before {
     text-shadow: 0 2px 0 black;
     padding: 1.5rem 2rem;
     box-shadow: 0 10px 50px -10px black;
+    animation: cardAnimation 1s alternate infinite;
 }
+
+@keyframes cardAnimation {
+    from {transform: translateY(-20px)}
+}
+
