@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@500&family=Montserrat:wght@300;400;500&display=swap');
+
 body {
     font-family: "Montserrat", sans-serif;
     height: 100vh;
@@ -41,3 +43,41 @@ body::before {
     from {transform: translateY(-20px)}
 }
 
+.card-top, .card-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-top i {
+    transform: rotate(90deg);
+}
+
+.card-title {
+    font-size: 1.8rem;
+    z-index: 1;
+}
+
+.card-center {
+    z-index: 1;
+}
+
+.card-center img {
+    width: 80px; 
+    padding-left: 1.5rem;
+}
+
+.card-bottom-left, .card-bottom-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-bottom-left {
+    gap: 0.7rem;
+}
+
+.card-number {
+    font-family: 'Exo', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+}
